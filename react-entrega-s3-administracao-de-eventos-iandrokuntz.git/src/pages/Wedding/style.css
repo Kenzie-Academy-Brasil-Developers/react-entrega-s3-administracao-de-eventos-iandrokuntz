@@ -1,0 +1,68 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    background-size: cover;
+    background-image: url("https://s1.1zoom.me/b5050/401/Drinks_Bar_Bottle_468131_1920x1080.jpg");
+    height: 200vh;
+}
+ul{
+   
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+li{    
+    margin: 30px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    width: 350px;
+    height: 500px;
+    background-color: white;
+    border: 4px solid lightcoral;
+    border-radius: 40px;
+}
+.Buttons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Buttons button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 190px;
+    height: 25px;
+    margin: 5px;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    background-color: lightcoral;
+    cursor: pointer;
+
+}
+.ItensDescription{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.ItensDescription p{
+    margin: 5px;
+}
+img{
+    width: 50px;
+    height: 140px;
+}
+
+.Link{
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+}
